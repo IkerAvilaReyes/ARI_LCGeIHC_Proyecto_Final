@@ -1,0 +1,252 @@
+# Blender 3.6.0 MTL File: 'Fachada.blend'
+# www.blender.org
+
+newmtl Bolsa
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures/IMGP6277.JPG
+map_Ks Textures/Specular_0.png
+
+newmtl Carpet_1
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures/Carpet_1.png
+map_Ks Textures/Specular_25.png
+
+newmtl Carpet_pink_tiled_simple
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures/Carpet_pink_tiled_simple.png
+map_Ks Textures/Specular_0.png
+
+newmtl Carpet_yellow_tiled_simple
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures/Carpet_yellow_tiled_simple.png
+map_Ks Textures/Specular_0.png
+
+newmtl Floor_1
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures/Floor_1.JPG
+map_Ks Textures/Specular_25.png
+
+newmtl Floor_2
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures/Floor_2.JPG
+map_Ks Textures/Specular_25.png
+
+newmtl Generic_1
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures/Generic_1.JPG
+map_Ks Textures/Specular_25.png
+
+newmtl Grating_1
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures/Grating_1.jpg
+map_Ks Textures/Specular_50.png
+
+newmtl Junk_2
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures/IMGP9888.JPG
+map_Ks Textures/Specular_50.png
+
+newmtl Light
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures/Specular_100.png
+map_Ks Textures/Specular_100.png
+
+newmtl Light_1
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures/IMGP7128.JPG
+map_Ks Textures/Specular_100.png
+
+newmtl Map
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures/EuropeMap.png
+map_Ks Textures/Specular_25.png
+
+newmtl Metal_1
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures/Metal_1.JPG
+map_Ks Textures/Specular_75.png
+
+newmtl Metal_2
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures/Metal_2.JPG
+map_Ks Textures/Specular_75.png
+
+newmtl Metal_3
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures/Metal_3.JPG
+map_Ks Textures/Specular_75.png
+
+newmtl Metal_5
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures/Metal_5.JPG
+map_Ks Textures/Specular_0.png
+
+newmtl Metal_6
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures/Metal_6.JPG
+map_Ks Textures/Specular_75.png
+
+newmtl Metal_8
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures/Metal_8.JPG
+map_Ks Textures/Specular_75.png
+
+newmtl Metal_9
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures/Metal_9.JPG
+map_Ks Textures/Specular_75.png
+
+newmtl Rock
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures/mntn_dark_d.jpg
+map_Ks Textures/Specular_25.png
+
+newmtl Wall_4
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures/Wall_4.JPG
+map_Ks Textures/Specular_33.png
+
+newmtl Wall_5
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures/Wall_5.JPG
+map_Ks Textures/Specular_33.png
+
+newmtl Wood_1
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd Textures/Wood_1.png
+map_Ks Textures/Specular_0.png
+
+newmtl Wood_4
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd Textures/Wood_4.png
+map_Ks Textures/Specular_0.png
+
+newmtl Wood_5
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd Textures/Wood_5.jpg
+map_Ks Textures/Specular_0.png
