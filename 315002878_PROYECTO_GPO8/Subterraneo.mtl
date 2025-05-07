@@ -1,47 +1,27 @@
 # Blender 3.6.0 MTL File: 'Fachada.blend'
 # www.blender.org
 
-newmtl Door_1
+newmtl Carpet_1
 Ns 250.000000
 Ka 1.000000 1.000000 1.000000
-Ks 0.500000 0.500000 0.500000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd Textures/IMGP4603.JPG
-
-newmtl Door_2
-Ns 250.000000
-Ka 1.000000 1.000000 1.000000
-Ks 0.500000 0.500000 0.500000
-Ke 0.000000 0.000000 0.000000
-Ni 1.450000
-d 1.000000
-illum 2
-map_Kd Textures/IMGP9923.JPG
-
-newmtl Floor_1
-Ns 250.000000
-Ka 1.000000 1.000000 1.000000
-Ks 0.500000 0.500000 0.500000
-Ke 0.000000 0.000000 0.000000
-Ni 1.450000
-d 1.000000
-illum 2
-map_Kd Textures/Floor_1.JPG
+map_Kd Textures/Carpet_1.png
+map_Ks Textures/Specular_25.png
 
 newmtl Floor_2
 Ns 250.000000
 Ka 1.000000 1.000000 1.000000
-Ks 0.209544 0.209544 0.209544
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
 map_Kd Textures/Floor_2.JPG
+map_Ks Textures/Specular_25.png
 
-newmtl Grate
+newmtl Grating_1
 Ns 250.000000
 Ka 1.000000 1.000000 1.000000
 Ks 0.500000 0.500000 0.500000
@@ -49,17 +29,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd Textures/grate_g.png
-
-newmtl Ground_2
-Ns 250.000000
-Ka 1.000000 1.000000 1.000000
-Ke 0.000000 0.000000 0.000000
-Ni 1.450000
-d 1.000000
-illum 1
-map_Kd Textures/ground_dry2_d.jpg
-map_Ks Textures/Specular_25.png
+map_Kd Textures/Grating_1.jpg
 
 newmtl Junk_2
 Ns 250.000000
@@ -81,26 +51,6 @@ d 1.000000
 illum 2
 map_Kd Textures/IMGP7128.JPG
 
-newmtl Light_2
-Ns 250.000000
-Ka 1.000000 1.000000 1.000000
-Ks 0.500000 0.500000 0.500000
-Ke 0.000000 0.000000 0.000000
-Ni 1.450000
-d 1.000000
-illum 2
-map_Kd Textures/IMGP7010.JPG
-
-newmtl Light_3
-Ns 250.000000
-Ka 1.000000 1.000000 1.000000
-Ks 0.500000 0.500000 0.500000
-Ke 0.000000 0.000000 0.000000
-Ni 1.450000
-d 1.000000
-illum 2
-map_Kd Textures/IMGP7943.JPG
-
 newmtl Metal_1
 Ns 250.000000
 Ka 1.000000 1.000000 1.000000
@@ -121,6 +71,16 @@ d 1.000000
 illum 2
 map_Kd Textures/Metal_2.JPG
 
+newmtl Metal_3
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures/Metal_3.JPG
+
 newmtl Metal_5
 Ns 250.000000
 Ka 1.000000 1.000000 1.000000
@@ -130,6 +90,16 @@ Ni 1.450000
 d 1.000000
 illum 2
 map_Kd Textures/Metal_5.JPG
+
+newmtl Metal_8
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures/Metal_8.JPG
 
 newmtl Metal_9
 Ns 250.000000
@@ -141,45 +111,15 @@ d 1.000000
 illum 2
 map_Kd Textures/Metal_9.JPG
 
-newmtl Speaker
+newmtl Piedra
 Ns 250.000000
 Ka 1.000000 1.000000 1.000000
-Ks 0.500000 0.500000 0.500000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd Textures/IMGP6569.JPG
-
-newmtl Tunnel_Entrance
-Ns 250.000000
-Ka 1.000000 1.000000 1.000000
-Ks 0.000000 0.000000 0.000000
-Ke 0.000000 0.000000 0.000000
-Ni 1.450000
-d 1.000000
-illum 1
-map_Kd Textures/Tunnel_Entrance.jpg
-
-newmtl Tunnel_Walls
-Ns 250.000000
-Ka 1.000000 1.000000 1.000000
-Ks 0.000000 0.000000 0.000000
-Ke 0.000000 0.000000 0.000000
-Ni 1.450000
-d 1.000000
-illum 1
-map_Kd Textures/Tunnel_Walls.png
-
-newmtl Wall_1
-Ns 250.000000
-Ka 1.000000 1.000000 1.000000
-Ke 0.000000 0.000000 0.000000
-Ni 1.450000
-d 1.000000
-illum 1
-map_Kd Textures/Wall_1.jpg
-map_Ks Textures/Specular_33.png
+map_Kd Textures/mntn_dark_d.jpg
+map_Ks Textures/Specular_25.png
 
 newmtl Wall_2
 Ns 250.000000
@@ -200,3 +140,13 @@ Ni 1.450000
 d 1.000000
 illum 2
 map_Kd Textures/Wall_3.JPG
+
+newmtl Wood_4
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd Textures/Wood_4.png
+map_Ks Textures/Specular_0.png

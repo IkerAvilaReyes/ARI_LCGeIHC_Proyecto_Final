@@ -1,0 +1,42 @@
+# Blender 3.6.0 MTL File: 'Fachada.blend'
+# www.blender.org
+
+newmtl Barrel
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures/Barrel.JPG
+map_Ks Textures/Specular_0.png
+
+newmtl Crate
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures/container2.png
+map_Ks Textures/container2_specular.png
+
+newmtl Junk_1
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures/IMGP7370.JPG
+
+newmtl Junk_2
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures/IMGP9888.JPG

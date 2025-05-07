@@ -4,59 +4,79 @@
 newmtl Planks_4
 Ns 250.000000
 Ka 1.000000 1.000000 1.000000
-Ks 0.000000 0.000000 0.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 1
 map_Kd Textures/Planks_4.png
+map_Ks Textures/Specular_0.png
 
 newmtl Planks_5
 Ns 250.000000
 Ka 1.000000 1.000000 1.000000
-Ks 0.000000 0.000000 0.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 1
 map_Kd Textures/Planks_5.png
+map_Ks Textures/Specular_0.png
 
 newmtl Screw_1
 Ns 250.000000
 Ka 1.000000 1.000000 1.000000
-Ks 0.000000 0.000000 0.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 1
-map_Kd Textures/Metal_5.JPG
+map_Kd Textures/Screw_1.png
+map_Ks Textures/Specular_100.png
+
+newmtl Stump_1
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd Textures/wood_end_27.png
+map_Ks Textures/Specular_0.png
+
+newmtl Trunk_1
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd Textures/Trunk_1.png
+map_Ks Textures/Specular_0.png
 
 newmtl Wood_4
 Ns 250.000000
 Ka 1.000000 1.000000 1.000000
-Ks 0.000000 0.000000 0.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 1
 map_Kd Textures/Wood_4.png
+map_Ks Textures/Specular_0.png
 
 newmtl Wood_5
 Ns 250.000000
 Ka 1.000000 1.000000 1.000000
-Ks 0.000000 0.000000 0.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 1
 map_Kd Textures/Wood_5.jpg
+map_Ks Textures/Specular_0.png
 
 newmtl Wood_6
 Ns 250.000000
 Ka 1.000000 1.000000 1.000000
-Ks 0.000000 0.000000 0.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 1
 map_Kd Textures/Wood_6.png
+map_Ks Textures/Specular_0.png
