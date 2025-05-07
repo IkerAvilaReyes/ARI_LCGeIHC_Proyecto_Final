@@ -107,6 +107,9 @@ int main()
 	Model puente((char*)"315002878_PROYECTO_GPO8/Puente.obj");
 	Model fachada((char*)"315002878_PROYECTO_GPO8/Fachada.obj");
 	Model tunel((char*)"315002878_PROYECTO_GPO8/Tunel.obj");
+	Model subterraneo((char*)"315002878_PROYECTO_GPO8/Subterraneo.obj");
+	Model fondo((char*)"315002878_PROYECTO_GPO8/Fondo.obj");
+	Model reja((char*)"315002878_PROYECTO_GPO8/Reja.obj");
 	Model agua((char*)"315002878_PROYECTO_GPO8/Agua.obj");
 	Model maquina1((char*)"315002878_PROYECTO_GPO8/Maquina1.obj");
 	Model maquina2((char*)"315002878_PROYECTO_GPO8/Maquina2.obj");
@@ -132,7 +135,7 @@ int main()
 		DoMovement();
 
 		// Clear the colorbuffer
-		glClearColor(0.1f, 0.1f, 0.1f, 1.0f);
+		glClearColor(0.424f, 0.667f, 0.965f, 1.0f);
 		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 	   
 		// OpenGL options
@@ -228,9 +231,9 @@ int main()
 		glUniform4f(glGetUniformLocation(lightingShader.Program, "colorAlpha"), 1.0f, 1.0f, 1.0f, 1.0f);
 
 		//Skybox
-		model = glm::mat4(1);
-		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
-		sky.Draw(lightingShader);
+		//model = glm::mat4(1);
+		//glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+		//sky.Draw(lightingShader);
 
 		//Puente
 		model = glm::mat4(1);
@@ -246,6 +249,23 @@ int main()
 		model = glm::mat4(1);
 		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
 		tunel.Draw(lightingShader);
+
+		//Subterraneo
+		model = glm::mat4(1);
+		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+		subterraneo.Draw(lightingShader);
+
+		//Fondo
+		model = glm::mat4(1);
+		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+		fondo.Draw(lightingShader);		
+
+		//Reja
+		glUniform1i(glGetUniformLocation(lightingShader.Program, "activaTransparencia"), 1);
+		model = glm::mat4(1);
+		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+		reja.Draw(lightingShader);
+		glUniform1i(glGetUniformLocation(lightingShader.Program, "activaTransparencia"), 0);
 
 		//Agua
 		glEnable(GL_BLEND);//Avtiva la funcionalidad para trabajar el canal alfa
